@@ -1,6 +1,6 @@
 <?php
 
-namespace MilesChou\Template;
+namespace LaravelBridge\Zf1;
 
 class Sample
 {

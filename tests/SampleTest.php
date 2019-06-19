@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use MilesChou\Template\Sample;
+use LaravelBridge\Zf1\Sample;
 use PHPUnit\Framework\TestCase;
 
 class SampleTest extends TestCase
