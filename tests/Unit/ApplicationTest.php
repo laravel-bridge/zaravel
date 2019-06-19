@@ -2,18 +2,18 @@
 
 namespace Tests\Unit;
 
-use LaravelBridge\Zf1\App;
+use LaravelBridge\Zf1\Application;
 use Tests\TestCase;
 use Zend_Application;
 
-class AppTest extends TestCase
+class ApplicationTest extends TestCase
 {
     /**
      * @test
      */
     public function shouldBeOkayWhenSimpleTest()
     {
-        $target = new App(
+        $target = new Application(
             APPLICATION_ENV,
             APPLICATION_PATH . '/configs/application.ini'
         );
