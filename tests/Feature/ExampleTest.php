@@ -16,4 +16,14 @@ class ExampleTest extends TestCase
 
         $this->assertInstanceOf(Zend_Application::class, $target);
     }
+
+    /**
+     * @test
+     */
+    public function shouldBeOkayWhenRun()
+    {
+        $actual = $this->createApplication()->getBootstrap()->run();
+
+        $this->assertContains('Zend Framework!', (string)$actual);
+    }
 }
