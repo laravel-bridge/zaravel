@@ -1,4 +1,4 @@
-# Composer Template
+# Laravel Bridge on Zend Framework
 
 [![Build Status][travis-svg]][travis-link]
 [![Coverage Status][coveralls-svg]][coveralls-link]
