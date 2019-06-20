@@ -1,5 +1,7 @@
 <?php
 
+use LaravelBridge\Zf1\Application;
+
 include_once __DIR__ . '/../../vendor/autoload.php';
 
 // Define path to application directory
@@ -20,7 +22,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
 require_once 'Zend/Application.php';
 
 // Create application, bootstrap, and run
-$application = new Zend_Application(
+$application = new Application(
     APPLICATION_ENV,
     APPLICATION_PATH . '/configs/application.ini'
 );

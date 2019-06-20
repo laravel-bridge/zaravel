@@ -1,8 +1,7 @@
 <?php
 
-class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
+use LaravelBridge\Zf1\Controller\Bootstrap as BaseBootstrap;
+
+class Bootstrap extends BaseBootstrap
 {
-
-
 }
-

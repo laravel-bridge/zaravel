@@ -11,7 +11,7 @@ class RequestTest extends TestCase
     /**
      * @test
      */
-    public function shouldBeOkayWhenSimpleTest()
+    public function shouldBeOkayWhenCreateSimpleRequest()
     {
         $target = new Request(IlluminateRequest::create('http://laravel.com/zend'));
 
