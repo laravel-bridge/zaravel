@@ -1,7 +1,7 @@
 {
-    "name": "laravel-bridge/zendframework",
+    "name": "laravel-bridge/zf1",
     "license": "MIT",
-    "description": "The bridge for Laravel on Zend Framework",
+    "description": "The bridge for Laravel on Zend Framework 1",
     "keywords": [
         "laravel"
     ],
