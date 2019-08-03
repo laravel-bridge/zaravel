@@ -30,7 +30,7 @@ Desktop.ini
 /.classpath
 
 # SVN files
-.svn/
+.svn
 
 # Compoesr files
 /vendor
