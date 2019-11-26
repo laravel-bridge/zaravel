@@ -1,7 +1,7 @@
 # Laravel Bridge on Zend Framework
 
 [![Build Status][travis-svg]][travis-link]
-[![Coverage Status][coveralls-svg]][coveralls-link]
+[![codecov](https://codecov.io/gh/laravel-bridge/slim/branch/master/graph/badge.svg)](https://codecov.io/gh/laravel-bridge/slim)
 
 The bridge for Laravel on Zend Framework 1.
 
@@ -11,5 +11,3 @@ The bridge for Laravel on Zend Framework 1.
 
 [travis-svg]: https://travis-ci.com/laravel-bridge/zf1.svg?branch=master
 [travis-link]: https://travis-ci.com/laravel-bridge/zf1
-[coveralls-svg]: https://coveralls.io/repos/github/laravel-bridge/zf1/badge.svg?branch=master
-[coveralls-link]: https://coveralls.io/github/laravel-bridge/zf1
